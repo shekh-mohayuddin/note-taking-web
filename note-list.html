@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note List - Note Taking Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="noteListPage" class="page">
+        <h1>Note List</h1>
+        <div id="filter">
+            <label for="filterBy">Filter by:</label>
+            <select id="filterBy">
+                <option value="all">All</option>
+                <option value="tags">Tags</option>
+                <option value="categories">Categories</option>
+            </select>
+            <input type="text" id="searchInput" placeholder="Search...">
+        </div>
+        <ul id="noteList">
+            <!-- Placeholder for note list -->
+            <li>Loading...</li>
+        </ul>
+        <div id="options">
+            <a href="dashboard.html">Go to Dashboard</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
